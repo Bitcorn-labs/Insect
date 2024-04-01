@@ -31,7 +31,7 @@ shared ({ caller = _owner }) actor class Token  (args: ?{
         owner = _owner;
         subaccount = null;
       };
-      max_supply = null;
+      max_supply = ?1000000;
       min_burn_amount = ?10000;
       max_memo = ?64;
       advanced_settings = null;
